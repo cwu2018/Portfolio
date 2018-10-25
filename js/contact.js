@@ -3,9 +3,8 @@
 $("#sent").click(function (){
 
 
-
-  // Save the first name as a variable
-var input = $("#firstname").val()
+  // Save the full name as a variable
+var input = $("#fullname").val()
 
   // Set HTML of .modal-body
 
