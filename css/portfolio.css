@@ -7,7 +7,7 @@ body, html {
 /* hero banner begin */
 .jumbotron{
   background-image: url("../image/Heroimage.jpg");
-  background-size: cover;
+  /* background-size: cover; */
   background-repeat: no-repeat;
  }
 
@@ -100,21 +100,7 @@ background-color: #063b63;
   color: white;
 }
 
-/* 
-.jumbotron {
-  background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(175, 170, 170, 0.45), 
-      rgba(175, 170, 170, 0.45)
-     ),
-    /* bottom, image */
- 
-    color: #fff;
-    height: 690.547px;
-    border-radius: 0;
-    margin-bottom: 0;
-} */
+
 
 .intro--text {
   margin-top: 100px;
@@ -147,3 +133,4 @@ background-color: #063b63;
 .h2 {
   color:  #063b63;
 }
+
