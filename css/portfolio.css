@@ -1,24 +1,15 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+
 }
 
 /* hero banner begin */
-
-.hero-banner {
-  background-image: url(../image/helloworld.jpg?); 
-  background-position: center;
+.jumbotron{
+  background-image: url("../image/Heroimage.jpg");
   background-size: cover;
-  color: #f5f5f5;
-  margin-bottom: 0px; /* override .jumbotron margin-bottom: 20px */
-}
-
-/* .hero-banner p {
-
-} */
-
-/* hero banner end */
+  background-repeat: no-repeat;
+ }
 
 
 .h1{
@@ -28,15 +19,17 @@ body > .container {
   padding: 60px 15px 0;
 }
 
-.bg-purple {
-  background-color:#593196;
-}
-
 .navbar-light .navbar-nav .nav-link {
-  color: #f5f5f5;
+  color: white;
+  height: 40px;
+
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
-  color: #e2e2e2;
+  color: white;
+
+}
+.bg-light {
+  background-color: #593196;
 }
 .footer {
   bottom: 0;
@@ -44,10 +37,7 @@ body > .container {
   height: 60px;
   line-height: 60px;
   color: #f5f5f5;
-  background-color:#593196;
-}
-.project-img {
-  height:400px;
+  background-color: #063b63;
 }
 
 .work .card {
@@ -61,14 +51,17 @@ h3{
 }
 
 .btn-primary {
-  background-color:#593196;
+  background-color: whitesmoke;
   border:none;
-  border-radius:18px;
+  border: radius 8px;
+  color:black;
+  height: 40px;
+  width: 120px; 
 }
 
 .btn-primary:hover {
-  background-color: #844ED7; /* Green */
-  color: #f5f5f5;
+  background-color:  #063b63;
+  color: white;
   box-shadow: 2px 2px grey;
 }
 
@@ -79,3 +72,78 @@ form {
   left:50%;
   width:250px;
   }
+  
+.flex-container > div {
+  background-color: #063b63;
+
+  width: 100px;
+  margin: 0px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  padding: 0px;
+ 
+  
+}
+
+
+
+.navbar {
+  padding:3px;
+  background-color:  #063b63;
+}
+.navbar-light .navbar-nav {
+color:white;
+background-color: #063b63;
+}
+.nav-link {
+  color: white;
+}
+
+/* 
+.jumbotron {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(175, 170, 170, 0.45), 
+      rgba(175, 170, 170, 0.45)
+     ),
+    /* bottom, image */
+ 
+    color: #fff;
+    height: 690.547px;
+    border-radius: 0;
+    margin-bottom: 0;
+} */
+
+.intro--text {
+  margin-top: 100px;
+}
+.btn-primary btn-lg {
+  background-color: transparent;
+}
+.row{
+
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  padding-block-end: 0px;
+  
+}
+.container-fluid {
+  padding: 0px;
+  padding-left: 0px;
+
+}
+.btn-primary {
+ background-color: transparent;
+ border: none;
+ color: black;
+}
+.btn-primary :hover {
+  background-color: darkgrey;
+  
+}
+.h2 {
+  color:  #063b63;
+}
